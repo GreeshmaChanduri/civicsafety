@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>World Crime Rate Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <style>
+    /* Add any additional CSS styling here */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 20px 0;
+      color: #007bff;
+    }
+
+    #map {
+      height: 600px;
+      width: 100%;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .leaflet-popup-content {
+      text-align: center;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .leaflet-popup-content p {
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>World Crime Rate Map</h1>
+  <div id="map"></div>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
